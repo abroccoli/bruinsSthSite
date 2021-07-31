@@ -1,0 +1,62 @@
+.schedule-table {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.game-row {
+    td {
+        color: black;
+        background-color: rgb(252, 181, 20);
+    }
+    &:nth-of-type(even) {
+        td {
+            color: white;
+            background-color: black;
+        }
+    }
+}
+
+.game-row--unavailable {
+    td {
+        color: darkgray;
+        background-color: gray;
+    }
+    &:nth-of-type(even) {
+        td {
+            color: darkgray;
+            background-color: gray;
+        }
+    }
+}
+
+.date-cell__day {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.date-cell__date {
+    font-size: 15px;
+}
+
+.date-cell__time {
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 5px;;
+}
+
+.opponent-cell__opponent {
+    font-size: 20px;
+}
+
+.opponent-cell__subtext {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.game-row__price {
+    font-size: 18px;
+}
+
+.game-row__availability {
+    font-size: 15px;
+}
