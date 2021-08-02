@@ -11,7 +11,7 @@ function App() {
         </div>
         <div className='text-block text-block--spacer'>
             <div>
-                Text ‪<a href='tel‪:+16177024741‬'>(617) 702-4741‬</a> with the games you are interested in purchasing.
+                Text ‪<a href="sms:6177024741‬">(617) 702-4741‬</a> with the games you are interested in purchasing.
             </div>
             <div>
                 All payments will be made via PayPal.
