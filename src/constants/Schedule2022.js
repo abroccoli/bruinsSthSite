@@ -33,7 +33,7 @@ const Schedule2022 = [
         Opponent: 'Dallas Stars',
         Subtext: 'Home Opener',
         Price: 110,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'October 24th, 2021',
