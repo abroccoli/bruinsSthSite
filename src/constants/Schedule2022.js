@@ -42,7 +42,7 @@ const Schedule2022 = [
         Opponent: 'San Jose Sharks',
         Subtext: false,
         Price: 100,
-        IsAvailable: false
+        IsAvailable: true
     },
     {
         Date: 'October 30th, 2021',
