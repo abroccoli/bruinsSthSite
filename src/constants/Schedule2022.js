@@ -186,7 +186,7 @@ const Schedule2022 = [
         Opponent: 'New Jersey Devils',
         Subtext: false,
         Price: 80,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'January 6th, 2022',
