@@ -1,3 +1,13 @@
+import { 
+    Schedule2022September,
+    Schedule2022October,
+    Schedule2022November,
+    Schedule2022December,
+    Schedule2022January,
+    Schedule2022February,
+    Schedule2022March,
+    Schedule2022April
+} from './constants/Schedule2022';
 import {ScheduleTable} from './components/ScheduleTable/ScheduleTable';
 import './App.scss';
 
@@ -25,6 +35,9 @@ function App() {
             <div>
                 Seats will not be sold individually.
             </div>
+            <div>
+                Check offical Bruins channels for date and time changes.
+            </div>
         </div>
         <div className='text-block text-block--spacer'>
             <h3> 
@@ -34,7 +47,21 @@ function App() {
         <div className='text-block text-block--spacer'>
             Boston Bruins 2021-2022 Regular Season
         </div>
-        <ScheduleTable />
+
+        <div className='text-block text-block--spacer'>
+            September
+        </div>
+        <ScheduleTable schedule={Schedule2022September}/>
+
+        <div className='text-block text-block--spacer'>
+            October
+        </div>
+        <ScheduleTable schedule={Schedule2022October}/>
+
+        <div className='text-block text-block--spacer'>
+            November
+        </div>
+        <ScheduleTable schedule={Schedule2022November}/>
     </div>
   );
 }

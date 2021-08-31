@@ -1,12 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Schedule2022 } from '../../constants/Schedule2022';
 import './ScheduleTable.scss';
 
-const ScheduleTableRows = () => {
+const ScheduleTableRows = ({schedule}) => {
     const rows = [];
 
-    Schedule2022.forEach(game => {
+    schedule.forEach(game => {
         rows.push(
             <tr className={`game-row ${game.IsAvailable ? '' : 'game-row--unavailable'}`}>
                 <td className='game-row__date-cell'>
@@ -41,7 +39,7 @@ const ScheduleTableRows = () => {
     return rows;
 }
 
-const ScheduleTable = () => (
+const ScheduleTable = ({schedule}) => (
     <div className='schedule-table'>
         <table class='table table-dark'>
             <thead>
@@ -53,7 +51,7 @@ const ScheduleTable = () => (
                 </tr>
             </thead>
             <tbody>
-                <ScheduleTableRows />
+                <ScheduleTableRows schedule={schedule} />
             </tbody>
         </table>
     </div>
