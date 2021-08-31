@@ -110,8 +110,8 @@ const Schedule2022November = [
         Day: 'Friday',
         Opponent: 'New York Rangers',
         Subtext: false,
-        Price: 100,
-        IsAvailable: true
+        Price: 160,
+        IsAvailable: false
     },
     {
         Date: 'November 28th, 2021',
