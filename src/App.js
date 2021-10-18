@@ -24,7 +24,7 @@ function App() {
                 Text ‪<a href="sms:6177024741‬">(617) 702-4741‬</a> with the games you are interested in purchasing.
             </div>
             <div>
-                All payments will be made via PayPal.
+                All payments will be made via Venmo/PayPal or Cash App.
             </div>
             <div>
             Ticketmaster SafeTix will be transfered to your Ticketmaster account after payment is recieved.
@@ -49,11 +49,6 @@ function App() {
         </div>
 
         <div className='text-block text-block--spacer'>
-            September
-        </div>
-        <ScheduleTable schedule={Schedule2022September}/>
-
-        <div className='text-block text-block--spacer'>
             October
         </div>
         <ScheduleTable schedule={Schedule2022October}/>
@@ -62,6 +57,11 @@ function App() {
             November
         </div>
         <ScheduleTable schedule={Schedule2022November}/>
+
+        <div className='text-block text-block--spacer'>
+            December
+        </div>
+        <ScheduleTable schedule={Schedule2022December}/>
     </div>
   );
 }

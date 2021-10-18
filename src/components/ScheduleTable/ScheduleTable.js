@@ -1,12 +1,19 @@
 import React from 'react';
+import moment from 'moment';
 import './ScheduleTable.scss';
 
 const ScheduleTableRows = ({schedule}) => {
     const rows = [];
 
-    schedule.forEach(game => {
+    schedule.forEach((game, index) => {
+        let date = moment(game.Date, 'MMMM Do, YYYY');
+
+        if (date < moment().add(1,'days')) {
+            return;
+        }
+
         rows.push(
-            <tr className={`game-row ${game.IsAvailable ? '' : 'game-row--unavailable'}`}>
+            <tr className={`game-row ${game.IsAvailable ? '' : 'game-row--unavailable'}`} key={index}>
                 <td className='game-row__date-cell'>
                     <div className='date-cell__date'>
                         {game.Date}
@@ -41,7 +48,7 @@ const ScheduleTableRows = ({schedule}) => {
 
 const ScheduleTable = ({schedule}) => (
     <div className='schedule-table'>
-        <table class='table table-dark'>
+        <table className='table table-dark'>
             <thead>
                 <tr>
                     <th scope='col'>Date</th>
