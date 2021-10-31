@@ -65,7 +65,7 @@ const Schedule2022November = [
         Day: 'Thursday',
         Opponent: 'Detroit Red Wings',
         Subtext: false,
-        Price: 90,
+        Price: 75,
         IsAvailable: true
     },
     {
@@ -74,7 +74,7 @@ const Schedule2022November = [
         Day: 'Tuesday',
         Opponent: 'Ottawa Senators',
         Subtext: false,
-        Price: 80,
+        Price: 72.5,
         IsAvailable: true
     },
     {
@@ -83,7 +83,7 @@ const Schedule2022November = [
         Day: 'Thursday',
         Opponent: 'Edmonton Oilers',
         Subtext: false,
-        Price: 90,
+        Price: 75,
         IsAvailable: true
     },
     {
@@ -101,7 +101,7 @@ const Schedule2022November = [
         Day: 'Sunday',
         Opponent: 'Calgary Flames',
         Subtext: false,
-        Price: 90,
+        Price: 80,
         IsAvailable: true
     },
     {
@@ -119,7 +119,7 @@ const Schedule2022November = [
         Day: 'Sunday',
         Opponent: 'Vancouver Canucks',
         Subtext: false,
-        Price: 90,
+        Price: 80,
         IsAvailable: true
     },
     {
@@ -128,7 +128,7 @@ const Schedule2022November = [
         Day: 'Tuesday',
         Opponent: 'Detroit Red Wings',
         Subtext: false,
-        Price: 80,
+        Price: 72.5,
         IsAvailable: true
     }
 ];
@@ -140,7 +140,7 @@ const Schedule2022December = [
         Day: 'Saturday',
         Opponent: 'Tampa Bay Lightning',
         Subtext: '2021 Stanley Cup Champions',
-        Price: 100,
+        Price: 90,
         IsAvailable: true
     },
     {
@@ -158,7 +158,7 @@ const Schedule2022December = [
         Day: 'Tuesday',
         Opponent: 'Carolina Hurricanes',
         Subtext: false,
-        Price: 80,
+        Price: 72.5,
         IsAvailable: true
     },
     {
@@ -167,7 +167,7 @@ const Schedule2022December = [
         Day: 'Thursday',
         Opponent: 'Colorado Avalanche',
         Subtext: false,
-        Price: 90,
+        Price: 75,
         IsAvailable: true
     },
     {
@@ -176,7 +176,7 @@ const Schedule2022December = [
         Day: 'Monday',
         Opponent: 'Pittsburgh Penguins',
         Subtext: false,
-        Price: 80,
+        Price: 72.5,
         IsAvailable: true
     }
 ];
@@ -188,7 +188,7 @@ const Schedule2022January = [
         Day: 'Saturday',
         Opponent: 'Buffalo Sabres',
         Subtext: 'New Years Day',
-        Price: 100,
+        Price: 110,
         IsAvailable: true
     },
     {
@@ -197,7 +197,7 @@ const Schedule2022January = [
         Day: 'Tuesday',
         Opponent: 'New Jersey Devils',
         Subtext: false,
-        Price: 80,
+        Price: 72.5,
         IsAvailable: false
     },
     {
@@ -206,7 +206,7 @@ const Schedule2022January = [
         Day: 'Thursday',
         Opponent: 'Minnesota Wild',
         Subtext: false,
-        Price: 90,
+        Price: 75,
         IsAvailable: true
     },
     {
@@ -215,7 +215,7 @@ const Schedule2022January = [
         Day: 'Thursday',
         Opponent: 'Philadelphia Flyers',
         Subtext: false,
-        Price: 90,
+        Price: 75,
         IsAvailable: true
     },
     {
@@ -224,7 +224,7 @@ const Schedule2022January = [
         Day: 'Saturday',
         Opponent: 'Nashville Predators',
         Subtext: false,
-        Price: 100,
+        Price: 90,
         IsAvailable: true
     },
     {
@@ -233,7 +233,7 @@ const Schedule2022January = [
         Day: 'Tuesday',
         Opponent: 'Carolina Hurricanes',
         Subtext: false,
-        Price: 80,
+        Price: 72.5,
         IsAvailable: true
     },
     {
@@ -242,7 +242,7 @@ const Schedule2022January = [
         Day: 'Thursday',
         Opponent: 'Washington Capitals',
         Subtext: false,
-        Price: 90,
+        Price: 75,
         IsAvailable: true
     },
     {
@@ -251,7 +251,7 @@ const Schedule2022January = [
         Day: 'Saturday',
         Opponent: 'Winnipeg Jets',
         Subtext: false,
-        Price: 100,
+        Price: 90,
         IsAvailable: true
     },
     {
@@ -260,7 +260,7 @@ const Schedule2022January = [
         Day: 'Monday',
         Opponent: 'Anaheim Ducks',
         Subtext: false,
-        Price: 80,
+        Price: 72.5,
         IsAvailable: true
     }
 ];

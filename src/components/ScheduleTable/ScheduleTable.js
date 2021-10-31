@@ -8,7 +8,7 @@ const ScheduleTableRows = ({schedule}) => {
     schedule.forEach((game, index) => {
         let date = moment(game.Date, 'MMMM Do, YYYY');
 
-        if (date < moment().add(1,'days')) {
+        if (date < moment()) {
             return;
         }
 
