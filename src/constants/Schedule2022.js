@@ -75,7 +75,7 @@ const Schedule2022November = [
         Opponent: 'Ottawa Senators',
         Subtext: false,
         Price: 72.5,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'November 11th, 2021',
@@ -84,7 +84,7 @@ const Schedule2022November = [
         Opponent: 'Edmonton Oilers',
         Subtext: false,
         Price: 75,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'November 14th, 2021',
@@ -141,7 +141,7 @@ const Schedule2022December = [
         Opponent: 'Tampa Bay Lightning',
         Subtext: '2021 Stanley Cup Champions',
         Price: 90,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'December 14th, 2021',
