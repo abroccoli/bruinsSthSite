@@ -101,12 +101,12 @@ const Schedule2022November = [
         Day: 'Sunday',
         Opponent: 'Calgary Flames',
         Subtext: false,
-        Price: 80,
+        Price: 70,
         IsAvailable: true
     },
     {
         Date: 'November 26th, 2021',
-        Time: '3:30 PM',
+        Time: '1:00 PM',
         Day: 'Friday',
         Opponent: 'New York Rangers',
         Subtext: false,
@@ -119,7 +119,7 @@ const Schedule2022November = [
         Day: 'Sunday',
         Opponent: 'Vancouver Canucks',
         Subtext: false,
-        Price: 80,
+        Price: 75,
         IsAvailable: true
     },
     {
@@ -128,7 +128,7 @@ const Schedule2022November = [
         Day: 'Tuesday',
         Opponent: 'Detroit Red Wings',
         Subtext: false,
-        Price: 72.5,
+        Price: 70,
         IsAvailable: true
     }
 ];
@@ -158,7 +158,7 @@ const Schedule2022December = [
         Day: 'Tuesday',
         Opponent: 'Carolina Hurricanes',
         Subtext: false,
-        Price: 100,
+        Price: 90,
         IsAvailable: true
     },
     {
@@ -225,7 +225,7 @@ const Schedule2022January = [
         Opponent: 'Nashville Predators',
         Subtext: false,
         Price: 90,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'January 18th, 2022',
@@ -252,7 +252,7 @@ const Schedule2022January = [
         Opponent: 'Winnipeg Jets',
         Subtext: false,
         Price: 90,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'January 24th, 2022',
