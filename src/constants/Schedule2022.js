@@ -129,7 +129,7 @@ const Schedule2022November = [
         Opponent: 'Detroit Red Wings',
         Subtext: false,
         Price: 70,
-        IsAvailable: true
+        IsAvailable: false
     }
 ];
 
