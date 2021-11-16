@@ -243,7 +243,7 @@ const Schedule2022January = [
         Opponent: 'Washington Capitals',
         Subtext: false,
         Price: 75,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'January 22nd, 2022',
