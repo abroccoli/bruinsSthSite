@@ -234,7 +234,7 @@ const Schedule2022January = [
         Opponent: 'Carolina Hurricanes',
         Subtext: false,
         Price: 72.5,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'January 20th, 2022',
