@@ -21,7 +21,7 @@ function App() {
         </div>
         <div className='text-block text-block--spacer'>
             <div>
-                Text ‪<a href="sms:6177024741‬">(617) 702-4741‬</a> or message <a href="https://www.reddit.com/user/brocilator/" target="_blank">u/brocilator</a> on Reddit with the games you are interested in purchasing.
+                Text ‪<a href="sms:6177024741‬">(617) 702-4741‬</a> or message <a href="https://www.reddit.com/user/brocilator/" target="_blank"  rel="noreferrer">u/brocilator</a> on Reddit with the games you are interested in purchasing.
             </div>
             <div>
                 All payments will be made via Venmo/PayPal or Cash App.
@@ -62,6 +62,11 @@ function App() {
             January
         </div>
         <ScheduleTable schedule={Schedule2022January}/>
+
+        <div className='text-block text-block--spacer'>
+            February
+        </div>
+        <ScheduleTable schedule={Schedule2022February}/>
     </div>
   );
 }
