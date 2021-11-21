@@ -102,7 +102,7 @@ const Schedule2022November = [
         Opponent: 'Calgary Flames',
         Subtext: false,
         Price: 70,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'November 26th, 2021',
@@ -120,7 +120,7 @@ const Schedule2022November = [
         Opponent: 'Vancouver Canucks',
         Subtext: false,
         Price: 75,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'November 30th, 2021',
