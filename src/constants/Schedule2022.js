@@ -159,7 +159,7 @@ const Schedule2022December = [
         Opponent: 'Carolina Hurricanes',
         Subtext: false,
         Price: 90,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'December 23rd, 2021',
@@ -168,7 +168,7 @@ const Schedule2022December = [
         Opponent: 'Colorado Avalanche',
         Subtext: false,
         Price: 110,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'December 27th, 2021',
@@ -177,7 +177,7 @@ const Schedule2022December = [
         Opponent: 'Pittsburgh Penguins',
         Subtext: false,
         Price: 110,
-        IsAvailable: true
+        IsAvailable: false
     }
 ];
 
