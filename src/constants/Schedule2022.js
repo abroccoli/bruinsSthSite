@@ -189,7 +189,7 @@ const Schedule2022January = [
         Opponent: 'Buffalo Sabres',
         Subtext: 'New Years Day',
         Price: 110,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'January 4th, 2022',
@@ -232,7 +232,7 @@ const Schedule2022January = [
         Time: '7:00 PM',
         Day: 'Tuesday',
         Opponent: 'Carolina Hurricanes',
-        Subtext: false,
+        Subtext: 'Willie O\'Ree Number Retirement',
         Price: 72.5,
         IsAvailable: false
     },
@@ -301,7 +301,7 @@ const Schedule2022March = [
         Time: '7:00 PM',
         Day: 'Saturday',
         Opponent: 'Arizona Coyotes',
-        Subtext: false,
+        Subtext: 'Irish Heritage Night',
         Price: 100,
         IsAvailable: true
     },
@@ -412,7 +412,7 @@ const Schedule2022April = [
         Time: '7:00 PM',
         Day: 'Thursday',
         Opponent: 'Buffalo Sabres',
-        Subtext: false,
+        Subtext: 'Fan Appreciation Night',
         Price: 90,
         IsAvailable: false
     }
