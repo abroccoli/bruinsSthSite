@@ -207,7 +207,7 @@ const Schedule2022January = [
         Opponent: 'Minnesota Wild',
         Subtext: false,
         Price: 75,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'January 13th, 2022',
