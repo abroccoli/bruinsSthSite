@@ -49,11 +49,6 @@ function App() {
         </div>
 
         <div className='text-block text-block--spacer'>
-            November
-        </div>
-        <ScheduleTable schedule={Schedule2022November}/>
-
-        <div className='text-block text-block--spacer'>
             December
         </div>
         <ScheduleTable schedule={Schedule2022December}/>
