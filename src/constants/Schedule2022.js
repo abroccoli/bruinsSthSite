@@ -216,7 +216,7 @@ const Schedule2022January = [
         Opponent: 'Philadelphia Flyers',
         Subtext: false,
         Price: 75,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'January 15th, 2022',
