@@ -260,8 +260,8 @@ const Schedule2022January = [
         Day: 'Monday',
         Opponent: 'Anaheim Ducks',
         Subtext: false,
-        Price: 72.5,
-        IsAvailable: true
+        Price: 80,
+        IsAvailable: false
     }
 ];
 
