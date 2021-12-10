@@ -10,6 +10,10 @@ import {
 } from './constants/Schedule2022';
 import {ScheduleTable} from './components/ScheduleTable/ScheduleTable';
 import './App.scss';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('G-3JXVYLQ5VZ');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
