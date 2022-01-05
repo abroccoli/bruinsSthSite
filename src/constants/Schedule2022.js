@@ -210,6 +210,15 @@ const Schedule2022January = [
         IsAvailable: false
     },
     {
+        Date: 'January 12th, 2022',
+        Time: '7:00 PM',
+        Day: 'Monday',
+        Opponent: 'Montreal Canadiens',
+        Subtext: 'Fuck the Habs',
+        Price: 110,
+        IsAvailable: false
+    },
+    {
         Date: 'January 13th, 2022',
         Time: '7:00 PM',
         Day: 'Thursday',
@@ -303,15 +312,6 @@ const Schedule2022March = [
         Opponent: 'Arizona Coyotes',
         Subtext: 'Irish Heritage Night',
         Price: 100,
-        IsAvailable: true
-    },
-    {
-        Date: 'March 21st, 2022',
-        Time: '7:00 PM',
-        Day: 'Monday',
-        Opponent: 'Montreal Canadiens',
-        Subtext: 'Fuck the Habs',
-        Price: 110,
         IsAvailable: false
     },
     {
@@ -320,7 +320,7 @@ const Schedule2022March = [
         Day: 'Thursday',
         Opponent: 'Tampa Bay Lightning',
         Subtext: '2021 Stanley Cup Champions',
-        Price: 110,
+        Price: 100,
         IsAvailable: true
     },
     {
@@ -329,7 +329,7 @@ const Schedule2022March = [
         Day: 'Saturday',
         Opponent: 'New York Islanders',
         Subtext: false,
-        Price: 100,
+        Price: 110,
         IsAvailable: true
     },
     {

@@ -53,11 +53,6 @@ function App() {
         </div>
 
         <div className='text-block text-block--spacer'>
-            December
-        </div>
-        <ScheduleTable schedule={Schedule2022December}/>
-
-        <div className='text-block text-block--spacer'>
             January
         </div>
         <ScheduleTable schedule={Schedule2022January}/>
@@ -66,6 +61,11 @@ function App() {
             February
         </div>
         <ScheduleTable schedule={Schedule2022February}/>
+
+        <div className='text-block text-block--spacer'>
+            March
+        </div>
+        <ScheduleTable schedule={Schedule2022March}/>
     </div>
   );
 }
