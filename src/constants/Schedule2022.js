@@ -330,7 +330,7 @@ const Schedule2022March = [
         Opponent: 'New York Islanders',
         Subtext: false,
         Price: 110,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'March 29th, 2022',
@@ -339,7 +339,7 @@ const Schedule2022March = [
         Opponent: 'Toronto Maple Leafs',
         Subtext: false,
         Price: 90,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'March 31st, 2022',
@@ -360,7 +360,7 @@ const Schedule2022April = [
         Opponent: 'Columbus Blue Jackets',
         Subtext: false,
         Price: 100,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'April 12th, 2022',
@@ -387,7 +387,7 @@ const Schedule2022April = [
         Opponent: 'Pittsburgh Penguins',
         Subtext: false,
         Price: 100,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'April 23rd, 2022',
@@ -396,7 +396,7 @@ const Schedule2022April = [
         Opponent: 'New York Rangers',
         Subtext: false,
         Price: 100,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'April 26th, 2022',
