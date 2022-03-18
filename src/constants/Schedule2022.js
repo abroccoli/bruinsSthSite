@@ -348,7 +348,7 @@ const Schedule2022March = [
         Opponent: 'New Jersey Devils',
         Subtext: false,
         Price: 90,
-        IsAvailable: true
+        IsAvailable: false
     }
 ];
 
