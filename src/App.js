@@ -23,7 +23,7 @@ function App() {
             <h3>Directly from a Bruins season ticket holder.</h3>
             <h3>Below box office value. No fees. No BS.</h3>
         </div>
-        <div className='text-block text-block--spacer'>
+        {/* <div className='text-block text-block--spacer'>
             <div>
                 Text ‪<a href="sms:6177024741‬">(617) 702-4741‬</a> or message <a href="https://www.reddit.com/user/brocilator/" target="_blank"  rel="noreferrer">u/brocilator</a> on Reddit with the games you are interested in purchasing.
             </div>
@@ -60,8 +60,12 @@ function App() {
         <div className='text-block text-block--spacer'>
             April
         </div>
-        <ScheduleTable schedule={Schedule2022April}/>
+        <ScheduleTable schedule={Schedule2022April}/> */}
 
+        <div className='text-block text-block--spacer-large'>
+            <h2>See you for the 2022 - 2023 season!</h2>
+            <h1>GO BRUINS!!!</h1>
+        </div>
     </div>
   );
 }
