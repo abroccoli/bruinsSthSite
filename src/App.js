@@ -63,8 +63,9 @@ function App() {
         <ScheduleTable schedule={Schedule2022April}/> */}
 
         <div className='text-block text-block--spacer-large'>
-            <h2>See you for the 2022 - 2023 season!</h2>
-            <h1>GO BRUINS!!!</h1>
+            No tickets currently available. This season is CRAZY!! Please enjoy this lovely photo:
+
+            <img class="main-image" src="https://cms.nhl.bamgrid.com/images/photos/339486428/1927x1084/cut.jpg"></img>
         </div>
     </div>
   );
