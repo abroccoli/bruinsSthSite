@@ -21,3 +21,8 @@ const Schedule2024December = [
         IsAvailable: true
     },
 ];
+
+export {
+    Schedule2024November,
+    Schedule2024December
+};
