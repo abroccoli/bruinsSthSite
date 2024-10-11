@@ -15,7 +15,7 @@ const Schedule2024November = [
         Opponent: 'St. Louis Blues',
         Subtext: false,
         Price: 115,
-        IsAvailable: true
+        IsAvailable: false
     },
     {
         Date: 'November 18th, 2024',
