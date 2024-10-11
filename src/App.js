@@ -1,13 +1,7 @@
 import { 
-    Schedule2022September,
-    Schedule2022October,
-    Schedule2022November,
-    Schedule2022December,
-    Schedule2022January,
-    Schedule2022February,
-    Schedule2022March,
-    Schedule2022April
-} from './constants/Schedule2022';
+    Schedule2024November,
+    Schedule2024December
+} from './constants/Schedule2024';
 import {ScheduleTable} from './components/ScheduleTable/ScheduleTable';
 import './App.scss';
 import ReactGA from 'react-ga';
@@ -23,7 +17,7 @@ function App() {
             <h3>Directly from a Bruins season ticket holder.</h3>
             <h3>Below box office value. No fees. No BS.</h3>
         </div>
-        {/* <div className='text-block text-block--spacer'>
+        <div className='text-block text-block--spacer'>
             <div>
                 Text ‪<a href="sms:6177024741‬">(617) 702-4741‬</a> or message <a href="https://www.reddit.com/user/brocilator/" target="_blank"  rel="noreferrer">u/brocilator</a> on Reddit with the games you are interested in purchasing.
             </div>
@@ -45,28 +39,26 @@ function App() {
         </div>
         <div className='text-block text-block--spacer'>
             <h3> 
-                Section 306, Row 7, Seats 3 &amp; 4
+                Section 305, Row 6, Seats 7 &amp; 8
             </h3>
         </div>
         <div className='text-block text-block--spacer'>
-            Boston Bruins 2021-2022 Regular Season
+            Boston Bruins 2024-2025 Regular Season
         </div>
 
         <div className='text-block text-block--spacer'>
-            March
+            November
         </div>
-        <ScheduleTable schedule={Schedule2022March}/>
+        <ScheduleTable schedule={Schedule2024November}/>
 
         <div className='text-block text-block--spacer'>
-            April
+            December
         </div>
-        <ScheduleTable schedule={Schedule2022April}/> */}
+        <ScheduleTable schedule={Schedule2024December}/>
 
-        <div className='text-block text-block--spacer-large'>
-            No tickets currently available. This season is CRAZY!! Please enjoy this lovely photo:
-
-            <img class="main-image" src="https://cms.nhl.bamgrid.com/images/photos/339486428/1927x1084/cut.jpg"></img>
-        </div>
+        {/* <div className='text-block text-block--spacer-large'>
+            No tickets currently available.
+        </div> */}
     </div>
   );
 }
