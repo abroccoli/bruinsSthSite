@@ -17,7 +17,7 @@ function App() {
             <h3>Directly from a Bruins season ticket holder.</h3>
             <h3>Below box office value. No fees. No BS.</h3>
         </div>
-        <div className='text-block text-block--spacer'>
+        {/* <div className='text-block text-block--spacer'>
             <div>
                 Text ‪<a href="sms:6177024741‬">(617) 702-4741‬</a> or message <a href="https://www.reddit.com/user/brocilator/" target="_blank"  rel="noreferrer">u/brocilator</a> on Reddit with the games you are interested in purchasing.
             </div>
@@ -44,9 +44,9 @@ function App() {
         </div>
         <div className='text-block text-block--spacer'>
             Boston Bruins 2024-2025 Regular Season
-        </div>
+        </div> */}
 
-        <div className='text-block text-block--spacer'>
+        {/* <div className='text-block text-block--spacer'>
             November
         </div>
         <ScheduleTable schedule={Schedule2024November}/>
@@ -54,11 +54,11 @@ function App() {
         <div className='text-block text-block--spacer'>
             December
         </div>
-        <ScheduleTable schedule={Schedule2024December}/>
+        <ScheduleTable schedule={Schedule2024December}/> */}
 
-        {/* <div className='text-block text-block--spacer-large'>
+        <div className='text-block text-block--spacer-large'>
             No tickets currently available.
-        </div> */}
+        </div>
     </div>
   );
 }
